@@ -8,22 +8,25 @@ I had to track down my `vbc.exe` for my system, as the path in that GitHub issue
 First, I made a new file `HelloWorld.vb`
 and wrote the following script
 
-`Module HelloWorld
-Sub Main()
-System.Console.WriteLine("Hello World!")
-End Sub
-End Module`
-
+``` VB.net
+Module HelloWorld
+  Sub Main()
+   System.Console.WriteLine("Hello World!")
+  End Sub
+End Module
+```
 And that worked fine, so I went to the next step: Forms!
 
 
 I created a new file called `HelloWorld-form.vb` and started writing another "Hello World" script that looked like this:
 
-`Class HelloWorld
- Sub Main() 
- MessageBox.Show("Hello World!")
- End Sub
- End Class`
+``` VBnet
+Class HelloWorld
+  Sub Main() 
+    MessageBox.Show("Hello World!")
+   End Sub
+End Class
+ ```
 
 Annnnnddddd it failed to compile.
 
